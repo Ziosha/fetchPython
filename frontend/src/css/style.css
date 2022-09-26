@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(75, 75, 75, 0.341);
+}
+#root{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-top: 3em;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+
+.card-body{
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(5, 5, 5, 0.9);
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.card-body:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    background: rgb(255, 255, 255);
+    color: #000;
+}
+
+.btn_agre{
+    margin-top: 1em;
+    visibility: visible;
+}
+
+.foot{
+    margin-top: 2em;
+    height: 2em;
+}
